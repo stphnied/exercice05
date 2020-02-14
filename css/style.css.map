@@ -1,9 +1,10 @@
 {
     "version": 3,
-    "mappings": ";AAAA;;EAEE;AAEF;;;;;;;;gEAQgE;AAEhE;;gEAEgE;AEhBhE,AAAA,CAAC,CAAC;EACE,WAAW,EAAE,qBAAqB;CACrC;;AAED,AAAA,MAAM,CAAC;EACH,UAAU,EAAE,MAAM;CACrB",
+    "mappings": ";AAAA;;EAEE;AAEF;;;;;;;;gEAQgE;AAEhE;;gEAEgE;AEhBhE,AAAA,CAAC,CAAC;EACE,WAAW,EAAE,qBAAqB;EAClC,UAAU,EDFC,OAAe;ECG1B,KAAK,EDFM,OAAgB;CCG9B;;AAED,AAAA,MAAM,CAAC;EACH,UAAU,EAAE,MAAM;CACrB;;AFWD;;gEAEgE",
     "sources": [
         "../sass/style.scss",
         "../sass/_variables.scss",
+        "../sass/_layout.scss",
         "../sass/_slider.scss"
     ],
     "names": [],
