@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": ";AAAA;;EAEE;AAEF;;;;;;;;gEAQgE;AAEhE;;gEAEgE;AEhBhE,AAAA,CAAC,CAAC;EACE,WAAW,EAAE,qBAAqB;CACrC;;AAED,AAAA,MAAM,CAAC;EACH,UAAU,EAAE,MAAM;CACrB",
+    "sources": [
+        "../sass/style.scss",
+        "../sass/_variables.scss",
+        "../sass/_slider.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
