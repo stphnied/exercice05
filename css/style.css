@@ -27,4 +27,23 @@ header {
 /* ------------------------------------------------------------
 # Slider
 --------------------------------------------------------------*/
+.gallery-cell {
+  display: block;
+  margin: 0 auto;
+  width: 35%;
+  height: 150px;
+  border: 2px solid #ff0055;
+  counter-increment: gallery-cell;
+}
+
+.gallery-cell:before {
+  content: counter(gallery-cell);
+  display: block;
+  text-align: center;
+  font-size: 5rem;
+}
+
+.gallery-cell:hover {
+  background-color: black;
+}
 /*# sourceMappingURL=style.css.map */

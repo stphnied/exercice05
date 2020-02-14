@@ -1,0 +1,23 @@
+.gallery {
+    // border:2px solid $color_pink;
+    // background: white;
+}
+
+.gallery-cell {
+    display: block;
+    margin: 0 auto;
+    width: 35%;
+    height: 150px;
+    border:2px solid $color_pink;
+    counter-increment: gallery-cell;
+
+    &:before {
+        content: counter(gallery-cell);
+        display: block;
+        text-align: center;
+        font-size: 5rem;
+    }
+    &:hover {
+        background-color: darken($color_pink,50%);
+    }
+}
